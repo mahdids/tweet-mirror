@@ -1,0 +1,2916 @@
+[
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            22,
+            7,
+            71
+        ],
+        "DCT_type_probs_cs2": [
+            5,
+            3,
+            92
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "sunday"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "Why a victory on Sunday would be the perfect way to end the season for Newcastle United #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <url>",
+        "created_at": "2018-05-10 15:20:02",
+        "TTE_cs2_error": 42.2,
+        "TTE_cs0_error": 65.3,
+        "TTE_cs1": 52.9,
+        "TTE_cs0": 6.4,
+        "TTE_cs3": 36.4,
+        "TTE_cs2": 29.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 18.8,
+        "tweet_id": "994597942227955712",
+        "left_neibours": [
+            {
+                "tweet_id": "994547100892450817",
+                "created_at": "2018-05-10 11:58:01",
+                "timeX": [
+                    "now"
+                ],
+                "text": "#ChelseaFC fans now it seems clear there are 2 front runners for first team coach at the Bridge who do you want when you\\xe2\\x80\\x99ve voted #cfc #Chelsea #Conte #CHEHUD #NEWCHE #Jardim #Sarri"
+            },
+            {
+                "tweet_id": "994525437996003328",
+                "created_at": "2018-05-10 10:31:56",
+                "timeX": [
+                    "the last day"
+                ],
+                "text": "Chelsea & Liverpool are under starters orders but who will win the race for a top-four spot on the last day of the Premier League season @LCopson casts his vote #LFC #LIVBRI #CFC #NEWCHE <url> <url>"
+            },
+            {
+                "tweet_id": "994478942156460032",
+                "created_at": "2018-05-10 07:27:10",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "We'll also have the @NUFC game on in the bar if you don't have tickets for Sunday let us know your predictions for #NEWCHE @NUFC360"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 35.3
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            70,
+            2,
+            28
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            0,
+            100
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "sunday"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS",
+        "created_at": "2018-05-10 16:03:59",
+        "TTE_cs2_error": 51.2,
+        "TTE_cs0_error": 65.5,
+        "TTE_cs1": 43.1,
+        "TTE_cs0": 5.4,
+        "TTE_cs3": 30.4,
+        "TTE_cs2": 19.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 27.8,
+        "tweet_id": "994609002972680192",
+        "left_neibours": [
+            {
+                "tweet_id": "994596962208026629",
+                "created_at": "2018-05-10 15:16:09",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "A victory on Sunday would be a tremendous way to end the season #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994547100892450817",
+                "created_at": "2018-05-10 11:58:01",
+                "timeX": [
+                    "now"
+                ],
+                "text": "#ChelseaFC fans now it seems clear there are 2 front runners for first team coach at the Bridge who do you want when you\\xe2\\x80\\x99ve voted #cfc #Chelsea #Conte #CHEHUD #NEWCHE #Jardim #Sarri"
+            },
+            {
+                "tweet_id": "994525437996003328",
+                "created_at": "2018-05-10 10:31:56",
+                "timeX": [
+                    "the last day"
+                ],
+                "text": "Chelsea & Liverpool are under starters orders but who will win the race for a top-four spot on the last day of the Premier League season @LCopson casts his vote #LFC #LIVBRI #CFC #NEWCHE <url> <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 40.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            63,
+            3,
+            34
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            0,
+            99
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "sunday may 13th"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads",
+        "created_at": "2018-05-10 17:39:44",
+        "TTE_cs2_error": 45.2,
+        "TTE_cs0_error": 62.9,
+        "TTE_cs1": 47.2,
+        "TTE_cs0": 6.4,
+        "TTE_cs3": 39.0,
+        "TTE_cs2": 24.1,
+        "DCT_type": "after",
+        "TTE_cs1_error": 22.1,
+        "tweet_id": "994633096380071936",
+        "left_neibours": [
+            {
+                "tweet_id": "994597942227955712",
+                "created_at": "2018-05-10 15:20:02",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Why a victory on Sunday would be the perfect way to end the season for Newcastle United #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <url>"
+            },
+            {
+                "tweet_id": "994596962208026629",
+                "created_at": "2018-05-10 15:16:09",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "A victory on Sunday would be a tremendous way to end the season #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994547100892450817",
+                "created_at": "2018-05-10 11:58:01",
+                "timeX": [
+                    "now"
+                ],
+                "text": "#ChelseaFC fans now it seems clear there are 2 front runners for first team coach at the Bridge who do you want when you\\xe2\\x80\\x99ve voted #cfc #Chelsea #Conte #CHEHUD #NEWCHE #Jardim #Sarri"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 30.3
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            30,
+            3,
+            67
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            1,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "the weekend"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            1,
+            0,
+            99
+        ],
+        "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>",
+        "created_at": "2018-05-10 19:09:23",
+        "TTE_cs2_error": 47.6,
+        "TTE_cs0_error": 64.2,
+        "TTE_cs1": 43.7,
+        "TTE_cs0": 3.6,
+        "TTE_cs3": 18.1,
+        "TTE_cs2": 20.2,
+        "DCT_type": "after",
+        "TTE_cs1_error": 24.1,
+        "tweet_id": "994655657683894272",
+        "left_neibours": [
+            {
+                "tweet_id": "994609002972680192",
+                "created_at": "2018-05-10 16:03:59",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS"
+            },
+            {
+                "tweet_id": "994597942227955712",
+                "created_at": "2018-05-10 15:20:02",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Why a victory on Sunday would be the perfect way to end the season for Newcastle United #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <url>"
+            },
+            {
+                "tweet_id": "994596962208026629",
+                "created_at": "2018-05-10 15:16:09",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "A victory on Sunday would be a tremendous way to end the season #NUFC #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 49.7
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            85,
+            5,
+            10
+        ],
+        "DCT_type_probs_cs2": [
+            17,
+            7,
+            76
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            2,
+            0,
+            98
+        ],
+        "text": "Chelsea must win to have any chance of a top-4 finish but can they beat Newcastle Tips #CFC #NUFC #NEWCHE #PL <url>",
+        "created_at": "2018-05-11 08:11:16",
+        "TTE_cs2_error": 43.4,
+        "TTE_cs0_error": 51.4,
+        "TTE_cs1": 33.9,
+        "TTE_cs0": 3.4,
+        "TTE_cs3": 28.0,
+        "TTE_cs2": 11.4,
+        "DCT_type": "after",
+        "TTE_cs1_error": 20.9,
+        "tweet_id": "994852426833375232",
+        "left_neibours": [
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            },
+            {
+                "tweet_id": "994609002972680192",
+                "created_at": "2018-05-10 16:03:59",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS"
+            },
+            {
+                "tweet_id": "994597942227955712",
+                "created_at": "2018-05-10 15:20:02",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Why a victory on Sunday would be the perfect way to end the season for Newcastle United #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 26.8
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            72,
+            10,
+            18
+        ],
+        "DCT_type_probs_cs2": [
+            2,
+            5,
+            93
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "today"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            97,
+            3
+        ],
+        "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>",
+        "created_at": "2018-05-11 09:13:27",
+        "TTE_cs2_error": 42.0,
+        "TTE_cs0_error": 49.1,
+        "TTE_cs1": 36.7,
+        "TTE_cs0": 4.7,
+        "TTE_cs3": 31.4,
+        "TTE_cs2": 11.8,
+        "DCT_type": "after",
+        "TTE_cs1_error": 17.1,
+        "tweet_id": "994868076196790275",
+        "left_neibours": [
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            },
+            {
+                "tweet_id": "994609002972680192",
+                "created_at": "2018-05-10 16:03:59",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS"
+            },
+            {
+                "tweet_id": "994597942227955712",
+                "created_at": "2018-05-10 15:20:02",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Why a victory on Sunday would be the perfect way to end the season for Newcastle United #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 22.4
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            42,
+            3,
+            55
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            3,
+            96
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            100,
+            0
+        ],
+        "text": "Chelsea need to beat Newcastle to have any chance of a top four finish Read our full #NEWCHE preview here <url>",
+        "created_at": "2018-05-11 10:58:29",
+        "TTE_cs2_error": 45.1,
+        "TTE_cs0_error": 46.2,
+        "TTE_cs1": 29.2,
+        "TTE_cs0": 5.8,
+        "TTE_cs3": 24.5,
+        "TTE_cs2": 6.9,
+        "DCT_type": "after",
+        "TTE_cs1_error": 22.8,
+        "tweet_id": "994894509388517376",
+        "left_neibours": [
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            },
+            {
+                "tweet_id": "994609002972680192",
+                "created_at": "2018-05-10 16:03:59",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 27.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            22,
+            54,
+            24
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            2,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "coming weeks"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>",
+        "created_at": "2018-05-11 11:48:45",
+        "TTE_cs2_error": 45.5,
+        "TTE_cs0_error": 45.9,
+        "TTE_cs1": 42.4,
+        "TTE_cs0": 5.3,
+        "TTE_cs3": 33.2,
+        "TTE_cs2": 5.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 8.8,
+        "tweet_id": "994907156842467328",
+        "left_neibours": [
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            },
+            {
+                "tweet_id": "994609002972680192",
+                "created_at": "2018-05-10 16:03:59",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "@Arsenal @NUFC good luck for sunday guys I am afraid with @ChelseaFC a surprise can come #NEWCHE Magpies get up I need a victory not a draw #COYG TOO #HUDARS"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 18.0
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            10,
+            7,
+            83
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            60,
+            40
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "The final weekend of the 2017/18 #PremierLeague season is upon us here are things you need to know #SWASTK #SOUMCI #BURBOU #WHUEVE #NEWCHE #TOTLEI #CRYWBA #LIVBHA #MUNWAT #HUDARSpic <url>",
+        "created_at": "2018-05-11 12:09:56",
+        "TTE_cs2_error": 48.3,
+        "TTE_cs0_error": 44.9,
+        "TTE_cs1": 28.1,
+        "TTE_cs0": 5.9,
+        "TTE_cs3": 17.3,
+        "TTE_cs2": 2.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 22.7,
+        "tweet_id": "994912487886737409",
+        "left_neibours": [
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 33.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            66,
+            2,
+            32
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            84,
+            16
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "It's almost time for Antonio Conte's press conference He'll be talking all things Newcastle ahead of our final Premier League game of the season stay tuned #NEWCHE <url>",
+        "created_at": "2018-05-11 12:14:51",
+        "TTE_cs2_error": 48.6,
+        "TTE_cs0_error": 44.6,
+        "TTE_cs1": 21.0,
+        "TTE_cs0": 6.2,
+        "TTE_cs3": 11.4,
+        "TTE_cs2": 2.2,
+        "DCT_type": "after",
+        "TTE_cs1_error": 29.8,
+        "tweet_id": "994913726842200065",
+        "left_neibours": [
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 39.4
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            93,
+            4,
+            3
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            84,
+            15
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "the previous year"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            100,
+            0
+        ],
+        "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE",
+        "created_at": "2018-05-11 12:24:13",
+        "TTE_cs2_error": 48.4,
+        "TTE_cs0_error": 47.1,
+        "TTE_cs1": 32.6,
+        "TTE_cs0": 3.5,
+        "TTE_cs3": 19.1,
+        "TTE_cs2": 2.2,
+        "DCT_type": "after",
+        "TTE_cs1_error": 18.0,
+        "tweet_id": "994916084921880588",
+        "left_neibours": [
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994633096380071936",
+                "created_at": "2018-05-10 17:39:44",
+                "timeX": [
+                    "sunday may 13th"
+                ],
+                "text": "This Sunday May 13th join us to celebrate the end of a great season We\\xe2\\x80\\x99ll be watching the final game of the season Newcastle United vs Chelsea in Vancouver BC @MoosesDownUnder 7am PST kickoff live from St. James\\xe2\\x80\\x99 Park #NEWCHE #NUFC Howay The Lads"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 31.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            91,
+            1,
+            8
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            15,
+            85
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            5,
+            3,
+            92
+        ],
+        "text": "Conte says it is still important to focus only on this season rather than talk about challenging Man City next season #NEWCHE",
+        "created_at": "2018-05-11 12:27:06",
+        "TTE_cs2_error": 50.3,
+        "TTE_cs0_error": 46.6,
+        "TTE_cs1": 46.5,
+        "TTE_cs0": 3.9,
+        "TTE_cs3": 17.4,
+        "TTE_cs2": 0.2,
+        "DCT_type": "after",
+        "TTE_cs1_error": 4.0,
+        "tweet_id": "994916810620366849",
+        "left_neibours": [
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 33.1
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            91,
+            1,
+            8
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            20,
+            79
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "now"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE",
+        "created_at": "2018-05-11 12:30:36",
+        "TTE_cs2_error": 50.4,
+        "TTE_cs0_error": 47.2,
+        "TTE_cs1": 45.6,
+        "TTE_cs0": 3.3,
+        "TTE_cs3": 15.5,
+        "TTE_cs2": 0.1,
+        "DCT_type": "after",
+        "TTE_cs1_error": 4.9,
+        "tweet_id": "994917687699570691",
+        "left_neibours": [
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994655657683894272",
+                "created_at": "2018-05-10 19:09:23",
+                "timeX": [
+                    "the weekend"
+                ],
+                "text": "Ready for the weekend #NUFC #HWTL #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 35.0
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            85,
+            5,
+            10
+        ],
+        "DCT_type_probs_cs2": [
+            83,
+            14,
+            3
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            100,
+            0,
+            0
+        ],
+        "text": "Chelsea must win to have any chance of a top-4 finish but can they beat Newcastle Tips #CFC #NUFC #NEWCHE #PL <url>",
+        "created_at": "2018-05-11 12:43:33",
+        "TTE_cs2_error": 40.8,
+        "TTE_cs0_error": 46.9,
+        "TTE_cs1": 25.8,
+        "TTE_cs0": 3.4,
+        "TTE_cs3": 26.8,
+        "TTE_cs2": 9.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 24.5,
+        "tweet_id": "994920946950696960",
+        "left_neibours": [
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 23.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            44,
+            1,
+            55
+        ],
+        "DCT_type_probs_cs2": [
+            2,
+            5,
+            93
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "sunday"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            2,
+            98
+        ],
+        "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC",
+        "created_at": "2018-05-11 12:46:40",
+        "TTE_cs2_error": 40.5,
+        "TTE_cs0_error": 44.0,
+        "TTE_cs1": 27.3,
+        "TTE_cs0": 6.2,
+        "TTE_cs3": 37.2,
+        "TTE_cs2": 9.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 22.9,
+        "tweet_id": "994921733797896193",
+        "left_neibours": [
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            },
+            {
+                "tweet_id": "994868076196790275",
+                "created_at": "2018-05-11 09:13:27",
+                "timeX": [
+                    "today"
+                ],
+                "text": "We\\xe2\\x80\\x99ll be giving tickets away today to a few lucky followers who voted in our Player of the Month competition #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 13.0
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            62,
+            19,
+            19
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            1,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            24,
+            5,
+            71
+        ],
+        "text": "Pronos Combis WE Complet <url> #Teamparieur #Clubparieur #Pronos #Ligue1 #Ligue2 #Combis #OGCNSMC #OGCNice #EIBLAS #CrystalPalace #CRYWEST #CorkCity #TFC #FCGBTFC #GETATM #Atletico #RiverPlate #Gremio #Shamrockrovers #NEWCHE #Chelseapic <url>",
+        "created_at": "2018-05-11 14:01:41",
+        "TTE_cs2_error": 35.5,
+        "TTE_cs0_error": 43.0,
+        "TTE_cs1": 27.6,
+        "TTE_cs0": 6.0,
+        "TTE_cs3": 26.8,
+        "TTE_cs2": 13.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 21.4,
+        "tweet_id": "994940609352863744",
+        "left_neibours": [
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 22.2
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            86,
+            4,
+            10
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            0,
+            100
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "december"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>",
+        "created_at": "2018-05-11 14:06:17",
+        "TTE_cs2_error": 35.3,
+        "TTE_cs0_error": 44.6,
+        "TTE_cs1": 29.2,
+        "TTE_cs0": 4.3,
+        "TTE_cs3": 22.6,
+        "TTE_cs2": 13.6,
+        "DCT_type": "after",
+        "TTE_cs1_error": 19.7,
+        "tweet_id": "994941769799254019",
+        "left_neibours": [
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "994907156842467328",
+                "created_at": "2018-05-11 11:48:45",
+                "timeX": [
+                    "coming weeks"
+                ],
+                "text": "The Beginning of Chelsea Fans Worldwide more info will be given in the coming weeks including the specific launch date of the channel #Chelsea #COYB #NEWCHE #CHEHUD #ComeOnChelseapic <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 26.3
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            11,
+            1,
+            88
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            83,
+            16
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "this sunday"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            2,
+            4,
+            94
+        ],
+        "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA",
+        "created_at": "2018-05-11 14:24:47",
+        "TTE_cs2_error": 30.3,
+        "TTE_cs0_error": 41.9,
+        "TTE_cs1": 37.5,
+        "TTE_cs0": 6.7,
+        "TTE_cs3": 15.4,
+        "TTE_cs2": 18.3,
+        "DCT_type": "after",
+        "TTE_cs1_error": 11.1,
+        "tweet_id": "994946425485225984",
+        "left_neibours": [
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            },
+            {
+                "tweet_id": "994916084921880588",
+                "created_at": "2018-05-11 12:24:13",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 33.2
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            6,
+            1,
+            93
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            2,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            2,
+            98
+        ],
+        "text": "#PremierLeague Final Weekend Preview #BettingTips #HUDARS #LIVBHA #SOUMCI #BURBOU #CRYWBA #MUNWAT #NEWCHE #TOTLEI #SWASTK #WHUEVE #Betting #EPL <url>",
+        "created_at": "2018-05-11 15:00:30",
+        "TTE_cs2_error": 29.3,
+        "TTE_cs0_error": 41.5,
+        "TTE_cs1": 37.7,
+        "TTE_cs0": 6.5,
+        "TTE_cs3": 24.9,
+        "TTE_cs2": 18.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 10.3,
+        "tweet_id": "994955414583177217",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 23.1
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            64,
+            18,
+            18
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            8,
+            91
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            87,
+            13
+        ],
+        "text": "Here's the #NEWCHE form guides Who are you backing <url>",
+        "created_at": "2018-05-11 15:18:14",
+        "TTE_cs2_error": 29.4,
+        "TTE_cs0_error": 44.6,
+        "TTE_cs1": 49.7,
+        "TTE_cs0": 3.1,
+        "TTE_cs3": 23.3,
+        "TTE_cs2": 18.3,
+        "DCT_type": "after",
+        "TTE_cs1_error": 2.0,
+        "tweet_id": "994959873757597699",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 24.4
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            85,
+            5,
+            10
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            35,
+            64
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            63,
+            37
+        ],
+        "text": "Newcastle United vs Chelsea <url> Officially LIVE in 140 countries Where in the world are you located See the link above for TIME & CHANNELS in your country @NUFC @ChelseaFC #NEWCHE #PremierLeaguepic <url>",
+        "created_at": "2018-05-11 15:26:04",
+        "TTE_cs2_error": 27.6,
+        "TTE_cs0_error": 43.5,
+        "TTE_cs1": 41.4,
+        "TTE_cs0": 4.1,
+        "TTE_cs3": 25.8,
+        "TTE_cs2": 20.0,
+        "DCT_type": "after",
+        "TTE_cs1_error": 6.2,
+        "tweet_id": "994961845600620545",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 21.8
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            99,
+            0,
+            1
+        ],
+        "DCT_type_probs_cs2": [
+            3,
+            12,
+            85
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            39,
+            10,
+            51
+        ],
+        "text": "Fancy Newcastle double chance at 15/10 but it's pretty speculative #newcastle #newche",
+        "created_at": "2018-05-11 15:29:19",
+        "TTE_cs2_error": 30.1,
+        "TTE_cs0_error": 45.6,
+        "TTE_cs1": 32.9,
+        "TTE_cs0": 1.9,
+        "TTE_cs3": 22.8,
+        "TTE_cs2": 17.4,
+        "DCT_type": "after",
+        "TTE_cs1_error": 14.6,
+        "tweet_id": "994962663078793216",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 24.7
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            80,
+            8,
+            12
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            29,
+            70
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            12,
+            88
+        ],
+        "text": "NEWCASTLE vs CHELSEA START 4-2-4 & GO ALL OUT NEW CHELSEA 2018/19 KIT by @Laus1507 Check out the Preview RIGHT NOW + thoughts on new kit Chelsea need a miracle to make Top 4 So go all out and get the win #cfc #nufc #newche #utc #ktbffh #eplhttps <neutralface> <neutralface> <url>",
+        "created_at": "2018-05-11 15:45:08",
+        "TTE_cs2_error": 27.8,
+        "TTE_cs0_error": 40.8,
+        "TTE_cs1": 38.0,
+        "TTE_cs0": 6.4,
+        "TTE_cs3": 28.0,
+        "TTE_cs2": 19.4,
+        "DCT_type": "after",
+        "TTE_cs1_error": 9.2,
+        "tweet_id": "994966646015037441",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 19.2
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            69,
+            7,
+            24
+        ],
+        "DCT_type_probs_cs2": [
+            1,
+            20,
+            79
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            7,
+            93
+        ],
+        "text": "Newcastle face Chelsea in the 2017-18 season\\xe2\\x80\\x99s final match #NUFC #HWTL #NEWCHE #PremierLeague #EPLhttps <neutralface> <neutralface> <url>",
+        "created_at": "2018-05-11 17:04:07",
+        "TTE_cs2_error": 27.5,
+        "TTE_cs0_error": 39.4,
+        "TTE_cs1": 34.7,
+        "TTE_cs0": 6.5,
+        "TTE_cs3": 25.0,
+        "TTE_cs2": 18.4,
+        "DCT_type": "after",
+        "TTE_cs1_error": 11.2,
+        "tweet_id": "994986521924009985",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 20.9
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            59,
+            21,
+            20
+        ],
+        "DCT_type_probs_cs2": [
+            3,
+            78,
+            19
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            8,
+            89,
+            3
+        ],
+        "text": "@premierleague #NEWCHE The 1st EVER #PL games in @wembleystadium had @ChelseaFC as visitors in 2017 The Last #PremierLeague tie in the SAME Iconic venue had @NUFC as the guests in 2018 Both teams meet on the Final day of the season on Tyne and Wear side Magpie spot",
+        "created_at": "2018-05-11 17:34:38",
+        "TTE_cs2_error": 28.3,
+        "TTE_cs0_error": 39.7,
+        "TTE_cs1": 34.9,
+        "TTE_cs0": 5.7,
+        "TTE_cs3": 22.7,
+        "TTE_cs2": 17.1,
+        "DCT_type": "after",
+        "TTE_cs1_error": 10.5,
+        "tweet_id": "994994201434755078",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 22.7
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            77,
+            18,
+            5
+        ],
+        "DCT_type_probs_cs2": [
+            4,
+            77,
+            19
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            57,
+            29,
+            14
+        ],
+        "text": "Chelsea have won their last 3 matches against Newcastle in all competitions Chelsea have kept a clean sheet in 2 of their last 3 EPL matches while Newcastle have failed to score in 3 of their last 4 matches #FPL #GW38 #NEWCHE #CHE",
+        "created_at": "2018-05-11 17:36:55",
+        "TTE_cs2_error": 27.7,
+        "TTE_cs0_error": 41.3,
+        "TTE_cs1": 35.7,
+        "TTE_cs0": 4.1,
+        "TTE_cs3": 20.7,
+        "TTE_cs2": 17.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 9.7,
+        "tweet_id": "994994775974731778",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 24.7
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995008106001256450",
+                "created_at": "2018-05-11 18:29:53",
+                "timeX": [
+                    "the previous year"
+                ],
+                "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE"
+            },
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            },
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            60,
+            29,
+            11
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            2,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "current",
+            "the last day"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            3,
+            96,
+            1
+        ],
+        "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC",
+        "created_at": "2018-05-11 17:39:18",
+        "TTE_cs2_error": 26.7,
+        "TTE_cs0_error": 39.9,
+        "TTE_cs1": 38.4,
+        "TTE_cs0": 5.4,
+        "TTE_cs3": 26.7,
+        "TTE_cs2": 18.6,
+        "DCT_type": "after",
+        "TTE_cs1_error": 6.9,
+        "tweet_id": "994995374917128193",
+        "left_neibours": [
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            },
+            {
+                "tweet_id": "994917687699570691",
+                "created_at": "2018-05-11 12:30:36",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on <url> soon #NEWCHE"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 18.6
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            },
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995027130923831297",
+                "created_at": "2018-05-11 19:45:29",
+                "timeX": [
+                    "a week"
+                ],
+                "text": "This was class fun to record you can bet it\\xe2\\x80\\x99s going to be even better to listen to If you own an electronic device with headphones and can afford to spare \\xc2\\xa 31.25 a week get on board the tf patreon train #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            34,
+            53,
+            13
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            24,
+            76
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            0,
+            100
+        ],
+        "timeX": [
+            "current",
+            "current",
+            "current"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            78,
+            22
+        ],
+        "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement",
+        "created_at": "2018-05-11 17:42:43",
+        "TTE_cs2_error": 42.0,
+        "TTE_cs0_error": 40.0,
+        "TTE_cs1": 16.9,
+        "TTE_cs0": 5.3,
+        "TTE_cs3": 2.1,
+        "TTE_cs2": 3.3,
+        "DCT_type": "after",
+        "TTE_cs1_error": 28.4,
+        "tweet_id": "994996237861621761",
+        "left_neibours": [
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "994921733797896193",
+                "created_at": "2018-05-11 12:46:40",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Must start this 11 on sunday & the FA Cup final Courtois Moses Azpi Cahill <neutralface> Rudi Alonso Kante Cesc Willian Hazard Giroud NO Christensen #NEWCHE #CFC"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 43.2
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            },
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995027130923831297",
+                "created_at": "2018-05-11 19:45:29",
+                "timeX": [
+                    "a week"
+                ],
+                "text": "This was class fun to record you can bet it\\xe2\\x80\\x99s going to be even better to listen to If you own an electronic device with headphones and can afford to spare \\xc2\\xa 31.25 a week get on board the tf patreon train #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            18,
+            2,
+            80
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            94,
+            6
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            100,
+            0
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            0,
+            100
+        ],
+        "text": "My #savacca picks #HUDARS Away #LIVBHA Home #MUNWAT Home #NEWCHE Away #SOUMCI Away <url>",
+        "created_at": "2018-05-11 17:58:40",
+        "TTE_cs2_error": 41.3,
+        "TTE_cs0_error": 40.0,
+        "TTE_cs1": 26.6,
+        "TTE_cs0": 5.0,
+        "TTE_cs3": 1.5,
+        "TTE_cs2": 3.7,
+        "DCT_type": "after",
+        "TTE_cs1_error": 18.4,
+        "tweet_id": "995000249797304320",
+        "left_neibours": [
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 43.5
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995011924256608257",
+                "created_at": "2018-05-11 18:45:03",
+                "timeX": [
+                    "now"
+                ],
+                "text": "That is all from Antonio Conte here for now but there will be more on soon #NEWCHE"
+            },
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995027130923831297",
+                "created_at": "2018-05-11 19:45:29",
+                "timeX": [
+                    "a week"
+                ],
+                "text": "This was class fun to record you can bet it\\xe2\\x80\\x99s going to be even better to listen to If you own an electronic device with headphones and can afford to spare \\xc2\\xa 31.25 a week get on board the tf patreon train #NUFC #NEWCHE <url>"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            72,
+            18,
+            10
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            98,
+            2
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            100,
+            0
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            2,
+            98
+        ],
+        "text": "@premierleague #NEWCHE #CRYWBA #SOUMCI #WHUEVE All 4 ties have COACH LINKS with teams paired #RafaBenitez with @NUFC @ChelseaFC #AlanPardew EX of both @CPFC @WBA #TonyPULIS as well @SouthamptonFC @ManCity #MarkHughes & @WestHamUtd @Everton have #DavidMoyes 2017/18 finale",
+        "created_at": "2018-05-11 18:01:08",
+        "TTE_cs2_error": 37.9,
+        "TTE_cs0_error": 39.9,
+        "TTE_cs1": 43.8,
+        "TTE_cs0": 5.1,
+        "TTE_cs3": 4.9,
+        "TTE_cs2": 7.1,
+        "DCT_type": "after",
+        "TTE_cs1_error": 1.2,
+        "tweet_id": "995000870503944193",
+        "left_neibours": [
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 40.1
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995027130923831297",
+                "created_at": "2018-05-11 19:45:29",
+                "timeX": [
+                    "a week"
+                ],
+                "text": "This was class fun to record you can bet it\\xe2\\x80\\x99s going to be even better to listen to If you own an electronic device with headphones and can afford to spare \\xc2\\xa 31.25 a week get on board the tf patreon train #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995448676859437056",
+                "created_at": "2018-05-12 23:40:33",
+                "timeX": [
+                    "this weekend"
+                ],
+                "text": "The #NEWCHE match is one of the top two matches this weekend that TV companies will broadcast live around the world Hopefully your efforts will show that club is worth buying"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            93,
+            4,
+            3
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            92,
+            8
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            100,
+            0
+        ],
+        "timeX": [
+            "the previous year"
+        ],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            0,
+            94,
+            6
+        ],
+        "text": "Conte says that Chelsea last season managed to win the league having finished 10th the previous year so there can be success again even if we finish fifth this time around #NEWCHE",
+        "created_at": "2018-05-11 18:29:53",
+        "TTE_cs2_error": 43.0,
+        "TTE_cs0_error": 41.0,
+        "TTE_cs1": 34.3,
+        "TTE_cs0": 3.5,
+        "TTE_cs3": 3.7,
+        "TTE_cs2": 1.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 10.2,
+        "tweet_id": "995008106001256450",
+        "left_neibours": [
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            },
+            {
+                "tweet_id": "994941769799254019",
+                "created_at": "2018-05-11 14:06:17",
+                "timeX": [
+                    "december"
+                ],
+                "text": "A look back at Newcastle's visit to Stamford Bridge in December #NUFC #NEWCHE <url>"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 40.8
+    },
+    {
+        "right_neibours": [
+            {
+                "tweet_id": "995017022525276162",
+                "created_at": "2018-05-11 19:05:19",
+                "timeX": [
+                    "sunday"
+                ],
+                "text": "Diame in the midfield Sunday against Chelsea #NUFC #HWTL #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995027130923831297",
+                "created_at": "2018-05-11 19:45:29",
+                "timeX": [
+                    "a week"
+                ],
+                "text": "This was class fun to record you can bet it\\xe2\\x80\\x99s going to be even better to listen to If you own an electronic device with headphones and can afford to spare \\xc2\\xa 31.25 a week get on board the tf patreon train #NUFC #NEWCHE <url>"
+            },
+            {
+                "tweet_id": "995448676859437056",
+                "created_at": "2018-05-12 23:40:33",
+                "timeX": [
+                    "this weekend"
+                ],
+                "text": "The #NEWCHE match is one of the top two matches this weekend that TV companies will broadcast live around the world Hopefully your efforts will show that club is worth buying"
+            }
+        ],
+        "DCT_type_probs_cs0": [
+            91,
+            1,
+            8
+        ],
+        "DCT_type_probs_cs2": [
+            0,
+            2,
+            98
+        ],
+        "DCT_type_probs_cs3": [
+            0,
+            88,
+            12
+        ],
+        "timeX": [],
+        "event_time": "2018-05-13 15:00:00",
+        "DCT_type_probs_cs1": [
+            2,
+            1,
+            97
+        ],
+        "text": "Conte says it is still important to focus only on this season rather than talk about challenging Man City next season #NEWCHE",
+        "created_at": "2018-05-11 18:31:28",
+        "TTE_cs2_error": 44.0,
+        "TTE_cs0_error": 40.6,
+        "TTE_cs1": 58.3,
+        "TTE_cs0": 3.9,
+        "TTE_cs3": 21.2,
+        "TTE_cs2": 0.5,
+        "DCT_type": "after",
+        "TTE_cs1_error": 13.8,
+        "tweet_id": "995008504925650945",
+        "left_neibours": [
+            {
+                "tweet_id": "994996237861621761",
+                "created_at": "2018-05-11 17:42:43",
+                "timeX": [
+                    "current",
+                    "current",
+                    "current"
+                ],
+                "text": "#NEWCHE #LIVBHA #RafaBenitez is the Current boss of @NUFC #ChrisHughton is the Ex boss of #NUFC So the Former of Rafa meets the Current of Chris Current of Rafa also meets the Ex of his Final day excitement"
+            },
+            {
+                "tweet_id": "994995374917128193",
+                "created_at": "2018-05-11 17:39:18",
+                "timeX": [
+                    "current",
+                    "the last day"
+                ],
+                "text": "#NEWCHE #LIVBHA The @ChampionsLeague qualification aspirations of 2 Ex @rafabenitezweb teams @LFC & @ChelseaFC rests on 2 teams #ChrisHughton had has links with The Current team of #Hughton @OfficialBHAFC are at #Anfield for the last day as #NUFC his Ex hosts #CFC"
+            },
+            {
+                "tweet_id": "994946425485225984",
+                "created_at": "2018-05-11 14:24:47",
+                "timeX": [
+                    "this sunday"
+                ],
+                "text": "Let's end the season on a high note Join us @AJHudsons this Sunday as the lads try to catch Chelski focusing on the FA Cup final You'll want to get there very early as the place will be VERY busy #NEWCHE @PLinUSA"
+            }
+        ],
+        "event": "NEWCHE",
+        "TTE_cs3_error": 23.3
+    }
+]
