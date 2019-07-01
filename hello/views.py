@@ -57,7 +57,7 @@ def get_sample_data(request,event_name, count):
     dirname = os.path.dirname(__file__)
 
     try:
-        p =dirname+  '/hello/DataFiles/'+event_name+'.json'
+        p =os.path.join(dirname,  'DataFiles/'+event_name+'.json')
         json_data = open(p)
         data = json.load(json_data)
         s=random.sample(data,count)
