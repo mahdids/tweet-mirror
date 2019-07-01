@@ -12,11 +12,11 @@ import os
 from gettingstarted.settings import BASE_DIR
 import random
 from django.http import JsonResponse
-
+from django.views.generic import TemplateView
 # Create your views here.
 def index(request):
     # return HttpResponse('Hello from Python!')
-    return render(request, "index.html")
+    return render(request, "Demo.html")
 
 
 def db(request):
