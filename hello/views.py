@@ -62,8 +62,35 @@ def get_sample_data(request,event_name, count):
     p =os.path.join(dirname,  'DataFiles/'+event_name+'.json')
     json_data = open(p)
     data = json.load(json_data)
-    s=random.sample(data,count)
-    response = HttpResponse(json.dumps(s), content_type="application/json")
+    s=random.sample(data,count*4)
+    green=[]
+    red=[]
+    blue=[]
+    for tweet in s:
+        if tweet['DCT_type']=="after":
+            green.append(tweet)
+        if tweet['DCT_type']=="before":
+            red.append(tweet)
+        if tweet['DCT_type']=="ongoing":
+            blue.append(tweet)
+    result=[]
+
+    if len(red)+len(green)<count/2:
+        result.extend(green)
+        result.extend(red)
+    else:
+        if len(red)>count/4 and len(green)>count/4:
+            result.extend(green[:count/4])
+            result.extend(red[:count/4])
+        else:
+            if len(red) < count / 4 :
+                result.extend(green[:(count / 2-len(red))])
+                result.extend(red)
+            else:
+                result.extend(red[:(count / 2 - len(green))])
+                result.extend(green)
+    result.extend(blue[:count-len(result)])
+    response = HttpResponse(json.dumps(result), content_type="application/json")
     _acao_response(response)
     return response
 

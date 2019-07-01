@@ -5,7 +5,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="{% static "css/Demo.css" %}" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"/>
 
     <script src="https://www.amcharts.com/lib/4/core.js"></script>
     <script src="https://www.amcharts.com/lib/4/charts.js"></script>
@@ -14,515 +14,720 @@
     <link rel="icon" type="icon" href="{% static "css/favicon.ico" %}">
 </head>
 <body style="background-color: #F6FEFD">
-   <div style="margin-left:40px;">
-        <div class="row">
-            <div class="col-md">
-                <h2 class="text-primary">&nbsp;&nbsp;Time2Event</h2>
-                <h4 class="text-info">&nbsp;&nbsp;&nbsp;&nbsp;A Context-sensitive System for Predicting Event Temporality in Twitter</h4>
-            </div>
+<div style="margin-left:40px;">
+    <div class="row">
+        <div class="col-md">
+            <h2 class="text-primary">&nbsp;&nbsp;Time2Event</h2>
+            <h4 class="text-info">&nbsp;&nbsp;&nbsp;&nbsp;A Context-sensitive System for Predicting Event Temporality in
+                Twitter</h4>
         </div>
-        <a class="btn btn-success" href="https://github.com/ndehghany/Time2Event" target="_blank"><i class="fab fa-lg fa-github"></i>&nbsp;&nbsp;Github</a>
-        <a class="btn btn-danger" target="_blank" href=""><i class="fab fa-lg fa-youtube"></i>&nbsp;&nbsp;Video</a>
-        <button type="button" class="btn btn-info" title="" onclick="showImage();"><span class="fa fa-lg fa-file-alt"></span>&nbsp;&nbsp;DataSet</button>
-        <a class="btn btn-warning" target="_blank" href="mailto:ndehghany@ut.ac.ir?subject=Hello"><i class="far fa-lg fa-envelope"></i>&nbsp;&nbsp;E-Mail</a>
-        <button type="button" class="btn btn-secondary" title="" onclick="shuffle()"><span class="fa fa-lg fa-random"></span>&nbsp;&nbsp;Shuffle</button>
-        <div style="display:inline-block; width:200px;">
-                <select id="Ultra" class="form-control" onchange="run()">
-                    <option value="LIVARS">#LIVARS</option>
-                    <option value="CHEMCI">#CHEMCI</option>
-                    <option value="MUNTOT">#MUNTOT</option>
-                    <option value="MUNMCI">#MUNMCI</option>
-                    <option value="NEWMCI">#NEWMCI</option>
-                    <option value="MUNCHE">#MUNCHE</option>
-                    <option value="TOTMCI">#TOTMCI</option>
-                    <option value="NEWCHE">#NEWCHE</option>
-                    <option value="TOTCHE">#TOTCHE</option>
-                    <option value="CHEARS">#CHEARS</option>
-                    <option value="NEWLIV">#NEWLIV</option>
-                    <option value="MUNNEW">#MUNNEW</option>
-                    <option value="TOTMUN">#TOTMUN</option>
-                    <option value="TOTARS">#TOTARS</option>
-                    <option value="NEWMUN">#NEWMUN</option>
-                    <option value="MUNLIV">#MUNLIV</option>
-                    <option value="NEWARS">#NEWARS</option>
-                    <option value="NEWTOT">#NEWTOT</option>
-                    <option value="MUNARS">#MUNARS</option>
-                </select>
-        </div>
-        <div style="position:absolute;right:40px;display:inline-block;">
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted on the event's Day" style="background-color: #12B8F9; height: 40px; width: 40px; margin-right: 20px; color:white;"> <i class="fab fa-lg fa-twitter"></i></button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted after the event" style="background-color: #FB0F82; height: 40px; width: 40px; margin-right: 20px;color:white; "> <i class="fab fa-lg fa-twitter"></i></button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted before the event" style="background-color: #00FA82; height: 40px; width: 40px; margin-right: 20px; color: white; "><i class="fab fa-lg fa-twitter"></i> </button>
-        </div>
-
-
+    </div>
+    <a class="btn btn-success" href="https://github.com/ndehghany/Time2Event" target="_blank"><i
+            class="fab fa-lg fa-github"></i>&nbsp;&nbsp;Github</a>
+    <a class="btn btn-danger" target="_blank" href=""><i class="fab fa-lg fa-youtube"></i>&nbsp;&nbsp;Video</a>
+    <button type="button" class="btn btn-info" title="" onclick="showImage();"><span
+            class="fa fa-lg fa-file-alt"></span>&nbsp;&nbsp;DataSet
+    </button>
+    <a class="btn btn-warning" target="_blank" href="mailto:ndehghany@ut.ac.ir?subject=Hello"><i
+            class="far fa-lg fa-envelope"></i>&nbsp;&nbsp;E-Mail</a>
+    <button type="button" class="btn btn-secondary" title="" onclick="shuffle()"><span
+            class="fa fa-lg fa-random"></span>&nbsp;&nbsp;Shuffle
+    </button>
+    <div style="display:inline-block; width:200px;">
+        <select id="Ultra" class="form-control" onchange="run()">
+            <option value="LIVARS">#LIVARS</option>
+            <option value="CHEMCI">#CHEMCI</option>
+            <option value="MUNTOT">#MUNTOT</option>
+            <option value="MUNMCI">#MUNMCI</option>
+            <option value="NEWMCI">#NEWMCI</option>
+            <option value="MUNCHE">#MUNCHE</option>
+            <option value="TOTMCI">#TOTMCI</option>
+            <option value="NEWCHE">#NEWCHE</option>
+            <option value="TOTCHE">#TOTCHE</option>
+            <option value="CHEARS">#CHEARS</option>
+            <option value="NEWLIV">#NEWLIV</option>
+            <option value="MUNNEW">#MUNNEW</option>
+            <option value="TOTMUN">#TOTMUN</option>
+            <option value="TOTARS">#TOTARS</option>
+            <option value="NEWMUN">#NEWMUN</option>
+            <option value="MUNLIV">#MUNLIV</option>
+            <option value="NEWARS">#NEWARS</option>
+            <option value="NEWTOT">#NEWTOT</option>
+            <option value="MUNARS">#MUNARS</option>
+        </select>
+    </div>
+    <div style="position:absolute;right:40px;display:inline-block;">
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom"
+                title="Tweet Posted on the event's Day"
+                style="background-color: #12B8F9; height: 40px; width: 40px; margin-right: 20px; color:white;"><i
+                class="fab fa-lg fa-twitter"></i></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom"
+                title="Tweet Posted after the event"
+                style="background-color: #FB0F82; height: 40px; width: 40px; margin-right: 20px;color:white; "><i
+                class="fab fa-lg fa-twitter"></i></button>
+        <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom"
+                title="Tweet Posted before the event"
+                style="background-color: #00FA82; height: 40px; width: 40px; margin-right: 20px; color: white; "><i
+                class="fab fa-lg fa-twitter"></i></button>
     </div>
 
-    <div class="main"></div>
-    <div id="datasetImageModal" class="modal fade" role="dialog" style="text-align:center;">
-        <img src="{% static "css/dataset.jpg" %}" style="width:600px; margin-top:200px;" />
-    </div>
+
+</div>
+
+<div class="main"></div>
+<div id="datasetImageModal" class="modal fade" role="dialog" style="text-align:center;">
+    <img src="{% static "css/dataset1.jpg" %}" style="width:600px; margin-top:200px;"/>
+</div>
 
 
+<div id="myModal" class="modal fade" role="dialog">
+</div>
 
-    <div id="myModal" class="modal fade" role="dialog">
-    </div>
 
+<script>
+    function showImage() {
+        $("#datasetImageModal").modal();
+    };
 
-     <script>
-        function showImage() {
-            $("#datasetImageModal").modal();
-        };
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-
-function run() {
+    function run() {
         sel = document.getElementById("Ultra").value;
-        currentEvent=sel;
+        currentEvent = sel;
         shuffle();
     }
 
-    </script>
+</script>
 
-    <script>
-        //am4core.useTheme(am4themes_frozen);
-        am4core.useTheme(am4themes_animated);
-        currentEvent="LIVARS"
-        tweetList = [];
-        var h = $('.main').height();
-        $('.main').height(h - 130);
+<script>
+    //am4core.useTheme(am4themes_frozen);
+    am4core.useTheme(am4themes_animated);
+    currentEvent = "LIVARS"
+    tweetList = [];
+    var h = $('.main').height();
+    $('.main').height(h - 130);
 
-        tweetList = [];
-        shuffle();
+    tweetList = [];
+    shuffle();
 
-        function shuffle() {
-            u="https://time2event.herokuapp.com/get_sample_data/"+currentEvent+"/30/"
-            $.ajax({
-                url: u, // the endpoint
-                type: "GET", // http method
-                contentType: "application/json",
+    function shuffle() {
+        u = "https://time2event.herokuapp.com/get_sample_data/" + currentEvent + "/30/"
+        $.ajax({
+            url: u, // the endpoint
+            type: "GET", // http method
+            contentType: "application/json",
 
-                success: function (data) {
-                    tweetList = data;
-                    $('.main').html("");
+            success: function (data) {
+                tweetList = data;
+                $('.main').html("");
 
-                    var count = 20;
-                    var maxTry = 5 * count;
-                    var tryCounter = 0;
-                    inserted = 0;
-                    var tweetLoc = [];
-                    newIndex = 0;
+                var count = 20;
+                var maxTry = 5 * count;
+                var tryCounter = 0;
+                inserted = 0;
+                var tweetLoc = [];
+                newIndex = 0;
 
-                    do {
-                        tryCounter = tryCounter + 1;
-                        newX = Math.floor((Math.random() * ($('.main').width() - 200) + 50));
-                        newY = Math.floor((Math.random() * ($('.main').height() - 250) + 100));
+                do {
+                    tryCounter = tryCounter + 1;
+                    newX = Math.floor((Math.random() * ($('.main').width() - 200) + 50));
+                    newY = Math.floor((Math.random() * ($('.main').height() - 250) + 100));
 
-                        isIntersect = tweetLoc.some(p => (Math.abs(newX - p.X) < 100) && (Math.abs(newY - p.Y) < 100));
-                        if (!isIntersect) {
-                            do {
+                    isIntersect = tweetLoc.some(p => (Math.abs(newX - p.X) < 100) && (Math.abs(newY - p.Y) < 100));
+                    if (!isIntersect) {
+                        do {
 
-                                tryCounter = tryCounter + 1;
-                                isIntersect = tweetLoc.some(p => p.Index == newIndex);
-                            } while (isIntersect && tryCounter < maxTry)
-                            tweetLoc.push({ X: newX, Y: newY, Index: newIndex });
-                            newIndex = newIndex + 1;
-                            inserted += 1;
-                        }
-                    } while (inserted != count && tryCounter < maxTry)
-                    for (var i = 0; i < inserted; i++) {
-                        var currentTweet = tweetList[tweetLoc[i].Index];
-                        var divText = '<div class="';
-                        if (currentTweet.DCT_type == 'before')
-                            divText += 'boxred';
-                        if (currentTweet.DCT_type == 'ongoing')
-                            divText += 'boxblue';
-                        if (currentTweet.DCT_type == 'after')
-                            divText += 'boxgreen';
-                        divText +=
-                            '" onClick="LoadModalPanel(' +
-                            currentTweet.tweet_id +
-                            ')" vid="tweet-' +
-                            currentTweet.tweet_id +
-                            '" style="left: ' +
-                            tweetLoc[i].X +
-                            'px; top: ' +
-                            tweetLoc[i].Y +
-                            'px;" data-tweetid="' +
-                            currentTweet.tweet_id +
-                            '" data-tweetText="' +
-                            currentTweet.text +
-                            '"> <span class="demo_tooltip" data-tooltip="' +
-                            currentTweet.text +
-                            '"></span></div>';
-                        $('.main').append(divText);
+                            tryCounter = tryCounter + 1;
+                            isIntersect = tweetLoc.some(p => p.Index == newIndex);
+                        } while (isIntersect && tryCounter < maxTry)
+                        tweetLoc.push({X: newX, Y: newY, Index: newIndex});
+                        newIndex = newIndex + 1;
+                        inserted += 1;
                     }
-                },
-                error: function (xhr) {
-                    alert(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
-                }
-            });
-
-
-        }
-
-        function LoadModalPanel(id) {
-            var currentTweet = tweetList.find(t => t.tweet_id == id);
-            var icon = "";
-            if (currentTweet.DCT_type == 'before')
-                        icon = "{% static "css/icon_red.png" %}";
-                    if (currentTweet.DCT_type == 'ongoing')
-                        icon = "{% static "css/icon_blue.png" %}";
-                    if (currentTweet.DCT_type == 'after')
-                        icon = "{% static "css/icon_green.png" %}";
-            $('#myModal').html("");
-            var currentText =
-                '<div class="modal-dialog" data-tweetId="' + currentTweet.tweet_id + '">'
-                    + '    <div class="modal-content">'
-                    + '        <div class="modal-header text-center" >'
-                    + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
-					+ '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
-                    + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
-					+ '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'
-					+ '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
-                    + '        </div>'
-                    + '        <div class="modal-body">'
-                    + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
-                    + '                 <div class="row text-center"><img src="'+icon+'" style="width:75px;margin-bottom:6px;"/></div>'
-                    + '                <div class="row">'
-                    + '                    <div class="col-md-1 col-md-offset-3">'
-                    + '                        <div class="row"><div  class="tte tte-1">T2E: ' + currentTweet.TTE_cs0 + '</div></div>'
-                    + '                        <div class="row"><div class="error error-1">ERROR(h): ' + currentTweet.TTE_cs0_error + '</div></div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-4">'
-                    + '                        <div class="tweet_box level1 level2 level3 level4">'
-                    + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
-                    + '                </div>'
-                    + '                <div class="row">'
-                    + '                    <div class="col-md-1 col-md-offset-2">'
-                    + '                        <div class="row"><div class="tte tte-2">T2E: ' + currentTweet.TTE_cs1 + '</div></div>'
-                    + '                        <div class="row"><div class="error error-2">ERROR(h): ' + currentTweet.TTE_cs1_error + '</div></div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-0">'
-                    + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-0">'
-                    + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
-                    + '                </div>'
-                    + '                <div class="row">'
-                    + '                    <div class="col-md-1 col-md-offset-1">'
-                    + '                        <div class="row"><div class="tte tte-3">T2E:' + currentTweet.TTE_cs2 + '</div></div>'
-                    + '                        <div class="row"><div class="error error-3">ERROR(h): ' + currentTweet.TTE_cs2_error + '</div></div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-0">'
-                    + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-2">'
-                    + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
-                    + '                </div>'
-                    + '                <div class="row">'
-                    + '                    <div class="col-md-1">'
-                    + '                        <div class="row"><div class="tte tte-4">T2E:' + currentTweet.TTE_cs3 + '</div></div>'
-                    + '                        <div class="row"><div class="error error-4">ERROR(h): ' + currentTweet.TTE_cs3_error + '</div></div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-0">'
-                    + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div class="col-md-3 col-md-offset-4">'
-                    + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
-                    + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
-                    + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
-                    + '                        </div>'
-                    + '                    </div>'
-                    + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
-                    + ''
-                    + '                </div>'
-                    + '            </div>'
-                    + '        </div>'
-                    + '    </div>'
-                    + '</div>';
-
-            $('#myModal').html(currentText);
-            $('#myModal').modal();
-            drawTweetChart("chart-1", currentTweet.DCT_type_probs_cs0[0], currentTweet.DCT_type_probs_cs0[1], currentTweet.DCT_type_probs_cs0[2]);
-            drawTweetChart("chart-2", currentTweet.DCT_type_probs_cs1[0], currentTweet.DCT_type_probs_cs1[1], currentTweet.DCT_type_probs_cs1[2]);
-            drawTweetChart("chart-3", currentTweet.DCT_type_probs_cs2[0], currentTweet.DCT_type_probs_cs2[1], currentTweet.DCT_type_probs_cs2[2]);
-            drawTweetChart("chart-4", currentTweet.DCT_type_probs_cs3[0], currentTweet.DCT_type_probs_cs3[1], currentTweet.DCT_type_probs_cs3[2]);
-            $("#chart-1").hover(level1in, level1out);
-            $(".tte-1").hover(level1in, level1out);
-            $(".error-1").hover(level1in, level1out);
-
-            $("#chart-2").hover(level2in, level2out);
-            $(".tte-2").hover(level2in, level2out);
-            $(".error-2").hover(level2in, level2out);
-
-            $("#chart-3").hover(level3in, level3out);
-            $(".tte-3").hover(level3in, level3out);
-            $(".error-3").hover(level3in, level3out);
-
-            $("#chart-4").hover(level4in, level4out);
-            $(".tte-4").hover(level4in, level4out);
-            $(".error-4").hover(level4in, level4out);
-        }
-
-        function ReloadModalPanel(id) {
-            var u = "https://time2event.herokuapp.com/get_tweet_with_id/"+currentEvent+"/" + id + "/";
-            $.ajax({
-                url: u, // the endpoint
-                type: "GET", // http method
-                contentType: "application/json",
-
-                success: function (data) {
-                    //var currentTweet = tweetList.find(t => t.tweet_id == id);
-                    var currentTweet = data;
-                    //var currentTweet = tweetList[index];
-                    var icon = "";
+                } while (inserted != count && tryCounter < maxTry)
+                for (var i = 0; i < inserted; i++) {
+                    var currentTweet = tweetList[tweetLoc[i].Index];
+                    var divText = '<div class="';
                     if (currentTweet.DCT_type == 'before')
-                        icon = "{% static "css/icon_red.png" %}";
+                        divText += 'boxred';
                     if (currentTweet.DCT_type == 'ongoing')
-                        icon = "{% static "css/icon_blue.png" %}";
+                        divText += 'boxblue';
                     if (currentTweet.DCT_type == 'after')
-                        icon = "{% static "css/icon_green.png" %}";
-                    $('#myModal').html("");
-                    var currentText =
+                        divText += 'boxgreen';
+                    divText +=
+                        '" onClick="LoadModalPanel(' +
+                        currentTweet.tweet_id +
+                        ')" vid="tweet-' +
+                        currentTweet.tweet_id +
+                        '" style="left: ' +
+                        tweetLoc[i].X +
+                        'px; top: ' +
+                        tweetLoc[i].Y +
+                        'px;" data-tweetid="' +
+                        currentTweet.tweet_id +
+                        '" data-tweetText="' +
+                        currentTweet.text +
+                        '"> <span class="demo_tooltip" data-tooltip="' +
+                        currentTweet.text +
+                        '"></span></div>';
+                    $('.main').append(divText);
+                }
+            },
+            error: function (xhr) {
+                alert(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+            }
+        });
+
+
+    }
+
+    function LoadModalPanel(id) {
+        var currentTweet = tweetList.find(t => t.tweet_id == id);
+        var icon = "";
+        var hasError = false;
+        if (currentTweet.DCT_type == 'before')
+            icon = "{% static "css/icon_red.png" %}";
+        if (currentTweet.DCT_type == 'ongoing')
+            icon = "{% static "css/icon_blue.png" %}";
+        if (currentTweet.DCT_type == 'after')
+        {icon = "{% static "css/icon_green.png" %}";
+            hasError = true;}
+        $('#myModal').html("");
+        var currentText = ""
+        if (hasError)
+            currentText =
+                '<div class="modal-dialog" data-tweetId="' + currentTweet.tweet_id + '">'
+                + '    <div class="modal-content">'
+                + '        <div class="modal-header text-center" >'
+                + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
+                + '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
+                + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
+                + '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'
+                + '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
+                + '        </div>'
+                + '        <div class="modal-body">'
+                + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
+                + '                 <div class="row text-center"><img src="' + icon + '" style="width:75px;margin-bottom:6px;"/></div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-3">'
+                + '                        <div class="row"><div  class="tte tte-1">T2E: ' + currentTweet.TTE_cs0 + '</div></div>'
+                + '                        <div class="row"><div class="error error-1">ERROR(h): ' + currentTweet.TTE_cs0_error + '</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-4">'
+                + '                        <div class="tweet_box level1 level2 level3 level4">'
+                + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-2">'
+                + '                        <div class="row"><div class="tte tte-2">T2E: ' + currentTweet.TTE_cs1 + '</div></div>'
+                + '                        <div class="row"><div class="error error-2">ERROR(h): ' + currentTweet.TTE_cs1_error + '</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-1">'
+                + '                        <div class="row"><div class="tte tte-3">T2E:' + currentTweet.TTE_cs2 + '</div></div>'
+                + '                        <div class="row"><div class="error error-3">ERROR(h): ' + currentTweet.TTE_cs2_error + '</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-2">'
+                + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1">'
+                + '                        <div class="row"><div class="tte tte-4">T2E:' + currentTweet.TTE_cs3 + '</div></div>'
+                + '                        <div class="row"><div class="error error-4">ERROR(h): ' + currentTweet.TTE_cs3_error + '</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-4">'
+                + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
+                + ''
+                + '                </div>'
+                + '            </div>'
+                + '        </div>'
+                + '    </div>'
+                + '</div>';
+        else
+            currentText =
+                '<div class="modal-dialog" data-tweetId="' + currentTweet.tweet_id + '">'
+                + '    <div class="modal-content">'
+                + '        <div class="modal-header text-center" >'
+                + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
+                + '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
+                + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
+                + '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'
+                + '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
+                + '        </div>'
+                + '        <div class="modal-body">'
+                + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
+                + '                 <div class="row text-center"><img src="' + icon + '" style="width:75px;margin-bottom:6px;"/></div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-3">'
+                + '                        <div class="row"><div  class="tte tte-1">T2E: -</div></div>'
+                + '                        <div class="row"><div class="error error-1">ERROR(h): -</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-4">'
+                + '                        <div class="tweet_box level1 level2 level3 level4">'
+                + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-2">'
+                + '                        <div class="row"><div class="tte tte-2">T2E: -</div></div>'
+                + '                        <div class="row"><div class="error error-2">ERROR(h): -</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1 col-md-offset-1">'
+                + '                        <div class="row"><div class="tte tte-3">T2E: -</div></div>'
+                + '                        <div class="row"><div class="error error-3">ERROR(h): -</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-2">'
+                + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
+                + '                </div>'
+                + '                <div class="row">'
+                + '                    <div class="col-md-1">'
+                + '                        <div class="row"><div class="tte tte-4">T2E: -</div></div>'
+                + '                        <div class="row"><div class="error error-4">ERROR(h): -</div></div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-0">'
+                + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div class="col-md-3 col-md-offset-4">'
+                + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
+                + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
+                + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
+                + '                        </div>'
+                + '                    </div>'
+                + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
+                + ''
+                + '                </div>'
+                + '            </div>'
+                + '        </div>'
+                + '    </div>'
+                + '</div>';
+
+        $('#myModal').html(currentText);
+        $('#myModal').modal();
+        drawTweetChart("chart-1", currentTweet.DCT_type_probs_cs0[0], currentTweet.DCT_type_probs_cs0[1], currentTweet.DCT_type_probs_cs0[2]);
+        drawTweetChart("chart-2", currentTweet.DCT_type_probs_cs1[0], currentTweet.DCT_type_probs_cs1[1], currentTweet.DCT_type_probs_cs1[2]);
+        drawTweetChart("chart-3", currentTweet.DCT_type_probs_cs2[0], currentTweet.DCT_type_probs_cs2[1], currentTweet.DCT_type_probs_cs2[2]);
+        drawTweetChart("chart-4", currentTweet.DCT_type_probs_cs3[0], currentTweet.DCT_type_probs_cs3[1], currentTweet.DCT_type_probs_cs3[2]);
+        $("#chart-1").hover(level1in, level1out);
+        $(".tte-1").hover(level1in, level1out);
+        $(".error-1").hover(level1in, level1out);
+
+        $("#chart-2").hover(level2in, level2out);
+        $(".tte-2").hover(level2in, level2out);
+        $(".error-2").hover(level2in, level2out);
+
+        $("#chart-3").hover(level3in, level3out);
+        $(".tte-3").hover(level3in, level3out);
+        $(".error-3").hover(level3in, level3out);
+
+        $("#chart-4").hover(level4in, level4out);
+        $(".tte-4").hover(level4in, level4out);
+        $(".error-4").hover(level4in, level4out);
+    }
+
+    function ReloadModalPanel(id) {
+        var u = "https://time2event.herokuapp.com/get_tweet_with_id/" + currentEvent + "/" + id + "/";
+        $.ajax({
+            url: u, // the endpoint
+            type: "GET", // http method
+            contentType: "application/json",
+
+            success: function (data) {
+                //var currentTweet = tweetList.find(t => t.tweet_id == id);
+                var currentTweet = data;
+                //var currentTweet = tweetList[index];
+                var icon = "";
+                var hasError = false;
+                if (currentTweet.DCT_type == 'before')
+                    icon = "{% static "css/icon_red.png" %}";
+                if (currentTweet.DCT_type == 'ongoing')
+                    icon = "{% static "css/icon_blue.png" %}";
+                if (currentTweet.DCT_type == 'after'){
+                    icon = "{% static "css/icon_green.png" %}";
+                    hasError = true;}
+                $('#myModal').html("");
+                var currentText = ""
+                if (hasError)
+                    currentText =
                         '<div class="modal-dialog" data-tweetId="' + currentTweet.tweet_id + '">'
-                            + '    <div class="modal-content">'
-                            + '        <div class="modal-header text-center" >'
-                            + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
-                            + '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
-                            + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
-                            + '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'
-                            + '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
-                            + '        </div>'
-                            + '        <div class="modal-body">'
-                            + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
-                            + '                 <div class="row text-center"><img src="'+icon+'" style="width:75px;margin-bottom:6px;"/></div>'
-                            + '                <div class="row">'
-                            + '                    <div class="col-md-1 col-md-offset-3">'
-                            + '                        <div class="row"><div  class="tte tte-1">T2E: ' + currentTweet.TTE_cs0 + '</div></div>'
-                            + '                        <div class="row"><div class="error error-1">ERROR(h): ' + currentTweet.TTE_cs0_error + '</div></div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-4">'
-                            + '                        <div class="tweet_box level1 level2 level3 level4">'
-                            + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
-                            + '                </div>'
-                            + '                <div class="row">'
-                            + '                    <div class="col-md-1 col-md-offset-2">'
-                            + '                        <div class="row"><div class="tte tte-2">T2E: ' + currentTweet.TTE_cs1 + '</div></div>'
-                            + '                        <div class="row"><div class="error error-2">ERROR(h): ' + currentTweet.TTE_cs1_error + '</div></div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-0">'
-                            + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-0">'
-                            + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
-                            + '                </div>'
-                            + '                <div class="row">'
-                            + '                    <div class="col-md-1 col-md-offset-1">'
-                            + '                        <div class="row"><div class="tte tte-3">T2E:' + currentTweet.TTE_cs2 + '</div></div>'
-                            + '                        <div class="row"><div class="error error-3">ERROR(h): ' + currentTweet.TTE_cs2_error + '</div></div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-0">'
-                            + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-2">'
-                            + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
-                            + '                </div>'
-                            + '                <div class="row">'
-                            + '                    <div class="col-md-1">'
-                            + '                        <div class="row"><div class="tte tte-4">T2E:' + currentTweet.TTE_cs3 + '</div></div>'
-                            + '                        <div class="row"><div class="error error-4">ERROR(h): ' + currentTweet.TTE_cs3_error + '</div></div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-0">'
-                            + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div class="col-md-3 col-md-offset-4">'
-                            + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
-                            + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
-                            + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
-                            + '                        </div>'
-                            + '                    </div>'
-                            + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
-                            + ''
-                            + '                </div>'
-                            + '            </div>'
-                            + '        </div>'
-                            + '    </div>'
-                            + '</div>';
+                        + '    <div class="modal-content">'
+                        + '        <div class="modal-header text-center" >'
+                        + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
+                        + '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
+                        + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
+                        {#+ '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'#}
+                        + '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
+                        + '        </div>'
+                        + '        <div class="modal-body">'
+                        + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
+                        + '                 <div class="row text-center"><img src="' + icon + '" style="width:75px;margin-bottom:6px;"/></div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-3">'
+                        + '                        <div class="row"><div  class="tte tte-1">T2E: ' + currentTweet.TTE_cs0 + '</div></div>'
+                        + '                        <div class="row"><div class="error error-1">ERROR(h): ' + currentTweet.TTE_cs0_error + '</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-4">'
+                        + '                        <div class="tweet_box level1 level2 level3 level4">'
+                        + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-2">'
+                        + '                        <div class="row"><div class="tte tte-2">T2E: ' + currentTweet.TTE_cs1 + '</div></div>'
+                        + '                        <div class="row"><div class="error error-2">ERROR(h): ' + currentTweet.TTE_cs1_error + '</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-1">'
+                        + '                        <div class="row"><div class="tte tte-3">T2E:' + currentTweet.TTE_cs2 + '</div></div>'
+                        + '                        <div class="row"><div class="error error-3">ERROR(h): ' + currentTweet.TTE_cs2_error + '</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-2">'
+                        + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1">'
+                        + '                        <div class="row"><div class="tte tte-4">T2E:' + currentTweet.TTE_cs3 + '</div></div>'
+                        + '                        <div class="row"><div class="error error-4">ERROR(h): ' + currentTweet.TTE_cs3_error + '</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-4">'
+                        + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
+                        + ''
+                        + '                </div>'
+                        + '            </div>'
+                        + '        </div>'
+                        + '    </div>'
+                        + '</div>';
+                else
+                    currentText =
+                        '<div class="modal-dialog" data-tweetId="' + currentTweet.tweet_id + '">'
+                        + '    <div class="modal-content">'
+                        + '        <div class="modal-header text-center" >'
+                        + '            <button type="button" class="close" data-dismiss="modal">&times;</button>'
+                        + '				<span><img src="{% static "css/Event.png" %}" style="width:28px;height:28px;margin-right:8px;display:inline-block"/></span>'
+                        + '            	<span class="modal-title" > #' + currentTweet.event + '</span>'
+                        {#+ '				<span><img src="{% static "css/Clock.png" %}" style="width:28px;height:28px;margin-right:8px;margin-left:50px;display:inline-block"/></span>'#}
+                        + '            	<span class="modal-title" >' + currentTweet.event_time + '</span>'
+                        + '        </div>'
+                        + '        <div class="modal-body">'
+                        + '            <div id="neighbors container" style="width: 98%; padding-left: 10px;">'
+                        + '                 <div class="row text-center"><img src="' + icon + '" style="width:75px;margin-bottom:6px;"/></div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-3">'
+                        + '                        <div class="row"><div  class="tte tte-1">T2E: - </div></div>'
+                        + '                        <div class="row"><div class="error error-1">ERROR(h): - </div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-4">'
+                        + '                        <div class="tweet_box level1 level2 level3 level4">'
+                        + '                            <span class="createdTime">' + currentTweet.created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.text, currentTweet.timeX, true) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-1" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-2">'
+                        + '                        <div class="row"><div class="tte tte-2">T2E: -</div></div>'
+                        + '                        <div class="row"><div class="error error-2">ERROR(h): -</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[0].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[0].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[0].text, currentTweet.left_neibours[0].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level2 level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[0].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[0].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[0].text, currentTweet.right_neibours[0].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-2" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1 col-md-offset-1">'
+                        + '                        <div class="row"><div class="tte tte-3">T2E: -</div></div>'
+                        + '                        <div class="row"><div class="error error-3">ERROR(h): - </div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[1].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[1].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[1].text, currentTweet.left_neibours[1].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-2">'
+                        + '                        <div class="tweet_box level3 level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[1].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[1].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[1].text, currentTweet.right_neibours[1].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-3" style="height: 100px" class="col-md-1"></div>'
+                        + '                </div>'
+                        + '                <div class="row">'
+                        + '                    <div class="col-md-1">'
+                        + '                        <div class="row"><div class="tte tte-4">T2E: -</div></div>'
+                        + '                        <div class="row"><div class="error error-4">ERROR(h): -</div></div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-0">'
+                        + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.left_neibours[2].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.left_neibours[2].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.left_neibours[2].text, currentTweet.left_neibours[2].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div class="col-md-3 col-md-offset-4">'
+                        + '                        <div class="tweet_box level4" onClick="ReloadModalPanel(\'' + currentTweet.right_neibours[2].tweet_id + '\')">'
+                        + '                            <span class="createdTime">' + currentTweet.right_neibours[2].created_at + '</span><br />'
+                        + '                            <p>' + generateTweetText(currentTweet.right_neibours[2].text, currentTweet.right_neibours[2].timeX, false) + '</p>'
+                        + '                        </div>'
+                        + '                    </div>'
+                        + '                    <div id="chart-4" style="height: 100px" class="col-md-1"></div>'
+                        + ''
+                        + '                </div>'
+                        + '            </div>'
+                        + '        </div>'
+                        + '    </div>'
+                        + '</div>';
 
-                    $('#myModal').html(currentText);
-                    drawTweetChart("chart-1", currentTweet.DCT_type_probs_cs0[0], currentTweet.DCT_type_probs_cs0[1], currentTweet.DCT_type_probs_cs0[2]);
-                    drawTweetChart("chart-2", currentTweet.DCT_type_probs_cs1[0], currentTweet.DCT_type_probs_cs1[1], currentTweet.DCT_type_probs_cs1[2]);
-                    drawTweetChart("chart-3", currentTweet.DCT_type_probs_cs2[0], currentTweet.DCT_type_probs_cs2[1], currentTweet.DCT_type_probs_cs2[2]);
-                    drawTweetChart("chart-4", currentTweet.DCT_type_probs_cs3[0], currentTweet.DCT_type_probs_cs3[1], currentTweet.DCT_type_probs_cs3[2]);
-                    $("#chart-1").hover(level1in, level1out);
-                    $(".tte-1").hover(level1in, level1out);
-                    $(".error-1").hover(level1in, level1out);
+                $('#myModal').html(currentText);
+                drawTweetChart("chart-1", currentTweet.DCT_type_probs_cs0[0], currentTweet.DCT_type_probs_cs0[1], currentTweet.DCT_type_probs_cs0[2]);
+                drawTweetChart("chart-2", currentTweet.DCT_type_probs_cs1[0], currentTweet.DCT_type_probs_cs1[1], currentTweet.DCT_type_probs_cs1[2]);
+                drawTweetChart("chart-3", currentTweet.DCT_type_probs_cs2[0], currentTweet.DCT_type_probs_cs2[1], currentTweet.DCT_type_probs_cs2[2]);
+                drawTweetChart("chart-4", currentTweet.DCT_type_probs_cs3[0], currentTweet.DCT_type_probs_cs3[1], currentTweet.DCT_type_probs_cs3[2]);
+                $("#chart-1").hover(level1in, level1out);
+                $(".tte-1").hover(level1in, level1out);
+                $(".error-1").hover(level1in, level1out);
 
-                    $("#chart-2").hover(level2in, level2out);
-                    $(".tte-2").hover(level2in, level2out);
-                    $(".error-2").hover(level2in, level2out);
+                $("#chart-2").hover(level2in, level2out);
+                $(".tte-2").hover(level2in, level2out);
+                $(".error-2").hover(level2in, level2out);
 
-                    $("#chart-3").hover(level3in, level3out);
-                    $(".tte-3").hover(level3in, level3out);
-                    $(".error-3").hover(level3in, level3out);
+                $("#chart-3").hover(level3in, level3out);
+                $(".tte-3").hover(level3in, level3out);
+                $(".error-3").hover(level3in, level3out);
 
-                    $("#chart-4").hover(level4in, level4out);
-                    $(".tte-4").hover(level4in, level4out);
-                    $(".error-4").hover(level4in, level4out);
-                },
-                error: function (xhr) {
-                    alert(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
-                }
-            });
-        }
+                $("#chart-4").hover(level4in, level4out);
+                $(".tte-4").hover(level4in, level4out);
+                $(".error-4").hover(level4in, level4out);
+            },
+            error: function (xhr) {
+                alert(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+            }
+        });
+    }
 
-        function level1in() {
-            $(".level1").css("box-shadow", "0px 0px 8px grey");
-            $(".level1").css("border-color", "orangered");
-            $(".level1").css("background-color", "white");
-        }
-        function level1out() {
-            $(".level1").css("box-shadow", "0px 0px 0px transparent");
-            $(".level1").css("border-color", "dodgerblue");
-            $(".level1").css("background-color", "whitesmoke");
-        }
+    function level1in() {
+        $(".level1").css("box-shadow", "0px 0px 8px grey");
+        $(".level1").css("border-color", "orangered");
+        $(".level1").css("background-color", "white");
+    }
 
-        function level2in() {
-            $(".level2").css("box-shadow", "0px 0px 8px grey");
-            $(".level2").css("border-color", "orangered");
-            $(".level2").css("background-color", "white");
-        }
-        function level2out() {
-            $(".level2").css("box-shadow", "0px 0px 0px transparent");
-            $(".level2").css("border-color", "dodgerblue");
-            $(".level2").css("background-color", "whitesmoke");
-        }
+    function level1out() {
+        $(".level1").css("box-shadow", "0px 0px 0px transparent");
+        $(".level1").css("border-color", "dodgerblue");
+        $(".level1").css("background-color", "whitesmoke");
+    }
 
-        function level3in() {
-            $(".level3").css("box-shadow", "0px 0px 8px grey");
-            $(".level3").css("border-color", "orangered");
-            $(".level3").css("background-color", "white");
-        }
-        function level3out() {
-            $(".level3").css("box-shadow", "0px 0px 0px transparent");
-            $(".level3").css("border-color", "dodgerblue");
-            $(".level3").css("background-color", "whitesmoke");
-        }
+    function level2in() {
+        $(".level2").css("box-shadow", "0px 0px 8px grey");
+        $(".level2").css("border-color", "orangered");
+        $(".level2").css("background-color", "white");
+    }
 
-        function level4in() {
-            $(".level4").css("box-shadow", "0px 0px 8px grey");
-            $(".level4").css("border-color", "orangered");
-            $(".level4").css("background-color", "white");
-        }
-        function level4out() {
-            $(".level4").css("box-shadow", "0px 0px 0px transparent");
-            $(".level4").css("border-color", "dodgerblue");
-            $(".level4").css("background-color", "whitesmoke");
-        }
+    function level2out() {
+        $(".level2").css("box-shadow", "0px 0px 0px transparent");
+        $(".level2").css("border-color", "dodgerblue");
+        $(".level2").css("background-color", "whitesmoke");
+    }
 
+    function level3in() {
+        $(".level3").css("box-shadow", "0px 0px 8px grey");
+        $(".level3").css("border-color", "orangered");
+        $(".level3").css("background-color", "white");
+    }
 
-        function drawTweetChart(divId, num1, num2, num3) {
+    function level3out() {
+        $(".level3").css("box-shadow", "0px 0px 0px transparent");
+        $(".level3").css("border-color", "dodgerblue");
+        $(".level3").css("background-color", "whitesmoke");
+    }
 
+    function level4in() {
+        $(".level4").css("box-shadow", "0px 0px 8px grey");
+        $(".level4").css("border-color", "orangered");
+        $(".level4").css("background-color", "white");
+    }
 
-            var chart1 = am4core.create(divId, am4charts.PieChart);
-
-            chart1.data = [
-                {
-                    "Label": "befor",
-                    "Value": num1
-                }, {
-                    "Label": "same day",
-                    "Value": num2
-                }, {
-                    "Label": "after",
-                    "Value": num3
-                }
-            ];
+    function level4out() {
+        $(".level4").css("box-shadow", "0px 0px 0px transparent");
+        $(".level4").css("border-color", "dodgerblue");
+        $(".level4").css("background-color", "whitesmoke");
+    }
 
 
-            var pieSeries = chart1.series.push(new am4charts.PieSeries());
-            pieSeries.dataFields.value = "Value";
-            pieSeries.dataFields.category = "Label";
-            pieSeries.slices.template.stroke = am4core.color("#fff");
-            pieSeries.slices.template.strokeWidth = 2;
-            pieSeries.slices.template.strokeOpacity = 1;
-            chart1.innerRadius = am4core.percent(20);
-            pieSeries.labels.template.disabled = true;
-            pieSeries.ticks.template.disabled = true;
+    function drawTweetChart(divId, num1, num2, num3) {
 
-            pieSeries.hiddenState.properties.opacity = 1;
-            pieSeries.hiddenState.properties.endAngle = -90;
-            pieSeries.hiddenState.properties.startAngle = -90;
-            pieSeries.colors.list = [
-                  am4core.color("#00FA82"),
-                  am4core.color("#098ED9"),
-                  am4core.color("#FB0F82"),
 
-            ];
-        }
+        var chart1 = am4core.create(divId, am4charts.PieChart);
 
-        String.prototype.replaceAll = function (search, replacement) {
-            var target = this;
-            return target.replace(new RegExp(search, 'ig'), replacement);
-        };
+        chart1.data = [
+            {
+                "Label": "same day",
+                "Value": num1
+            }, {
+                "Label": "after",
+                "Value": num2
+            }, {
+                "Label": "befor",
+                "Value": num3
+            }
+        ];
 
-        function generateTweetText(text, tokens, isMain) {
-            if (!isMain)
-                text = text.length > 110 ? text.substring(0, 110) + " ..." : text;
-            $.each(tokens, function (index, value) {
-                text = text.replaceAll(value, '<span style="text-decoration:underline;font-weight:bold;">' + ' ' + value + ' ' + '</span>');
-            });
-            return text;
-        }
-    </script>
+
+        var pieSeries = chart1.series.push(new am4charts.PieSeries());
+        pieSeries.dataFields.value = "Value";
+        pieSeries.dataFields.category = "Label";
+        pieSeries.slices.template.stroke = am4core.color("#fff");
+        pieSeries.slices.template.strokeWidth = 2;
+        pieSeries.slices.template.strokeOpacity = 1;
+        chart1.innerRadius = am4core.percent(20);
+        pieSeries.labels.template.disabled = true;
+        pieSeries.ticks.template.disabled = true;
+
+        pieSeries.hiddenState.properties.opacity = 1;
+        pieSeries.hiddenState.properties.endAngle = -90;
+        pieSeries.hiddenState.properties.startAngle = -90;
+        pieSeries.colors.list = [
+            am4core.color("#098ED9"),
+            am4core.color("#FB0F82"),
+            am4core.color("#00FA82"),
+
+        ];
+    }
+
+    String.prototype.replaceAll = function (search, replacement) {
+        var target = this;
+        return target.replace(new RegExp(search, 'ig'), replacement);
+    };
+
+    function generateTweetText(text, tokens, isMain) {
+        if (!isMain)
+            text = text.length > 110 ? text.substring(0, 110) + " ..." : text;
+        $.each(tokens, function (index, value) {
+            text = text.replaceAll(value, '<span style="text-decoration:underline;font-weight:bold;">' + ' ' + value + ' ' + '</span>');
+        });
+        return text;
+    }
+</script>
 
 </body>
