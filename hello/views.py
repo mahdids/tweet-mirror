@@ -64,16 +64,21 @@ def get_sample_data(request,event_name, count):
         j=json.dumps(s)
         return HttpResponse(j,status=status.HTTP_200_OK,content_type="application/json")
     except:
-        return HttpResponse(dirname,status=status.HTTP_200_OK,content_type="application/json")
+        return HttpResponse(dirname,status=status.HTTP_400_BAD_REQUEST,content_type="application/json")
 
 
 def get_tweet_with_id(request,event_name, tweet_id):
-    p =  '~/hello/DataFiles/'+event_name+'.json'
-    json_data = open(p)
-    data = json.load(json_data)
-    for json_obj in data:
-        if json_obj['tweet_id'] == tweet_id:
-            j=json.dumps(json_obj)
-            return HttpResponse(j,status=status.HTTP_200_OK,content_type="application/json")
-    return HttpResponse("tweet not found", status=status.HTTP_204_NO_CONTENT)
+    dirname = os.path.dirname(__file__)
+
+    try:
+        p = os.path.join(dirname, 'DataFiles/' + event_name + '.json')
+        json_data = open(p)
+        data = json.load(json_data)
+        for json_obj in data:
+            if json_obj['tweet_id'] == tweet_id:
+                j=json.dumps(json_obj)
+                return HttpResponse(j,status=status.HTTP_200_OK,content_type="application/json")
+        return HttpResponse("tweet not found", status=status.HTTP_204_NO_CONTENT)
+    except:
+        return HttpResponse(dirname,status=status.HTTP_400_BAD_REQUEST,content_type="application/json")
 
