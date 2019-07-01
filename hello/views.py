@@ -11,6 +11,8 @@ from django.http import JsonResponse
 import os
 from gettingstarted.settings import BASE_DIR
 import random
+from django.http import JsonResponse
+
 # Create your views here.
 def index(request):
     # return HttpResponse('Hello from Python!')
@@ -50,22 +52,24 @@ def get_event_names(request):
     # with open(filename, 'a') as out_json_file:
     #     json.dump(currentList, out_json_file, indent=4)
     event_names=["NEWTOT", "LIVARS", "CHEMCI", "MUNTOT", "MUNMCI", "NEWMCI", "MUNCHE", "TOTMCI", "NEWCHE", "TOTCHE", "CHEARS", "NEWLIV", "MUNNEW", "TOTMUN", "TOTARS", "NEWMUN", "MUNLIV", "NEWARS", "MUNARS"]
-
-    return HttpResponse(json.dumps(event_names),status=status.HTTP_200_OK)
+    response = HttpResponse(json.dumps(event_names),status=status.HTTP_200_OK)
+    _acao_response(response)
+    return response
 
 def get_sample_data(request,event_name, count):
     dirname = os.path.dirname(__file__)
 
-    try:
-        p =os.path.join(dirname,  'DataFiles/'+event_name+'.json')
-        json_data = open(p)
-        data = json.load(json_data)
-        s=random.sample(data,count)
-        j=json.dumps(s)
-        return HttpResponse(j,status=status.HTTP_200_OK,content_type="application/json")
-    except:
-        return HttpResponse(dirname,status=status.HTTP_400_BAD_REQUEST,content_type="application/json")
+    p =os.path.join(dirname,  'DataFiles/'+event_name+'.json')
+    json_data = open(p)
+    data = json.load(json_data)
+    s=random.sample(data,count)
+    response = HttpResponse(json.dumps(s), content_type="application/json")
+    _acao_response(response)
+    return response
 
+def _acao_response(response):
+    response['Access-Control-Allow-Origin'] = '*'
+    response['Access-Control-Allow-Methods'] = 'GET'
 
 def get_tweet_with_id(request,event_name, tweet_id):
     dirname = os.path.dirname(__file__)
@@ -77,8 +81,14 @@ def get_tweet_with_id(request,event_name, tweet_id):
         for json_obj in data:
             if json_obj['tweet_id'] == tweet_id:
                 j=json.dumps(json_obj)
-                return HttpResponse(j,status=status.HTTP_200_OK,content_type="application/json")
-        return HttpResponse("tweet not found", status=status.HTTP_204_NO_CONTENT)
+                response = HttpResponse(j, content_type="application/json")
+                _acao_response(response)
+                return response
+        response = HttpResponse({}, content_type="application/json")
+        _acao_response(response)
+        return response
     except:
-        return HttpResponse(dirname,status=status.HTTP_400_BAD_REQUEST,content_type="application/json")
+        response = HttpResponse("Error",status=status.HTTP_400_BAD_REQUEST,content_type="application/json")
+        _acao_response(response)
+        return response
 
