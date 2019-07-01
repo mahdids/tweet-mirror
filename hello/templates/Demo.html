@@ -5,19 +5,62 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="{% static "css/Demo.css" %}" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
     <script src="https://www.amcharts.com/lib/4/core.js"></script>
     <script src="https://www.amcharts.com/lib/4/charts.js"></script>
     <script src="https://www.amcharts.com/lib/4/themes/frozen.js"></script>
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 </head>
 <body style="background-color: #F6FEFD">
-    <div class="top_buttons">
-        <button type="button" class="btn btn-danger" style="width: 100px" onclick="shuffle()">Shuffle</button>
-        <button type="button" class="btn btn-warning" style="width: 100px">GitHub</button>
-        <button type="button" class="btn btn-success" style="width: 100px">Paper</button>
-        <button type="button" class="btn btn-info" style="width: 100px">E-mail</button>
+   <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <h2 class="text-primary">&nbsp;&nbsp;Time2Event</h2>
+                <h4 class="text-info">&nbsp;&nbsp;&nbsp;&nbsp;A Context-sensitive System for Predicting Event Temporality in Twitter</h4>
+            </div>
+        </div>
+        <a class="btn btn-success" href="https://github.com/ndehghany/Time2Event" target="_blank"><i class="fab fa-lg fa-github"></i>&nbsp;&nbsp;Github</a>
+        <a class="btn btn-danger" target="_blank" href=""><i class="fab fa-lg fa-youtube"></i>&nbsp;&nbsp;Video</a>
+        <button type="button" class="btn btn-info" title="" onclick="showImage();"><span class="fa fa-lg fa-file-alt"></span>&nbsp;&nbsp;DataSet</button>
+        <a class="btn btn-warning" target="_blank" href="mailto:ndehghany@ut.ac.ir?subject=Hello"><i class="far fa-lg fa-envelope"></i>&nbsp;&nbsp;E-Mail</a>
+        <button type="button" class="btn btn-secondary" title="" onclick="shuffle()"><span class="fa fa-lg fa-random"></span>&nbsp;&nbsp;Shuffle</button>
+        <div style="display:inline-block; width:200px;">
+                <select id="Ultra" class="form-control" onchange="run()">
+                    <option value="LIVARS">#LIVARS</option>
+                    <option value="CHEMCI">#CHEMCI</option>
+                    <option value="MUNTOT">#MUNTOT</option>
+                    <option value="MUNMCI">#MUNMCI</option>
+                    <option value="NEWMCI">#NEWMCI</option>
+                    <option value="MUNCHE">#MUNCHE</option>
+                    <option value="TOTMCI">#TOTMCI</option>
+                    <option value="NEWCHE">#NEWCHE</option>
+                    <option value="TOTCHE">#TOTCHE</option>
+                    <option value="CHEARS">#CHEARS</option>
+                    <option value="NEWLIV">#NEWLIV</option>
+                    <option value="MUNNEW">#MUNNEW</option>
+                    <option value="TOTMUN">#TOTMUN</option>
+                    <option value="TOTARS">#TOTARS</option>
+                    <option value="NEWMUN">#NEWMUN</option>
+                    <option value="MUNLIV">#MUNLIV</option>
+                    <option value="NEWARS">#NEWARS</option>
+                    <option value="NEWTOT">#NEWTOT</option>
+                    <option value="MUNARS">#MUNARS</option>
+                </select>
+        </div>
+        <div style="position:absolute;right:40px;display:inline-block;">
+            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted on the event's Day" style="background-color: #12B8F9; height: 40px; width: 40px; margin-right: 20px; color:white;"> <i class="fab fa-lg fa-twitter"></i></button>
+            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted before the event" style="background-color: #FB0F82; height: 40px; width: 40px; margin-right: 20px;color:white; "> <i class="fab fa-lg fa-twitter"></i></button>
+            <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Tweet Posted after the event" style="background-color: #00FA82; height: 40px; width: 40px; margin-right: 20px; color: white; "><i class="fab fa-lg fa-twitter"></i> </button>
+        </div>
+
+
     </div>
+
     <div class="main"></div>
+    <div id="datasetImageModal" class="modal fade" role="dialog" style="text-align:center;">
+        <img src="{% static "css/dataset.png" %}" style="width:600px; margin-top:200px;" />
+    </div>
 
 
 
@@ -25,23 +68,38 @@
     </div>
 
 
-    <script>
+     <script>
+        function showImage() {
+            $("#datasetImageModal").modal();
+        };
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+function run() {
+        sel = document.getElementById("Ultra").value;
+        currentEvent=sel;
+        shuffle();
+    }
+
     </script>
 
     <script>
         //am4core.useTheme(am4themes_frozen);
         am4core.useTheme(am4themes_animated);
+        currentEvent="NEWTOT"
         tweetList = [];
         var h = $('.main').height();
-        $('.main').height(h - 94);
+        $('.main').height(h - 130);
 
         tweetList = [];
         shuffle();
 
         function shuffle() {
-
+            u="https://secure-savannah-92191.herokuapp.com/get_sample_data/"+currentEvent+"/30/"
             $.ajax({
-                url: "https://secure-savannah-92191.herokuapp.com/get_sample_data/NEWMCI/30/", // the endpoint
+                url: u, // the endpoint
                 type: "GET", // http method
                 contentType: "application/json",
 
@@ -232,7 +290,7 @@
         }
 
         function ReloadModalPanel(id) {
-            var u = "https://secure-savannah-92191.herokuapp.com/get_tweet_with_id/NEWMCI/" + id + "/";
+            var u = "https://secure-savannah-92191.herokuapp.com/get_tweet_with_id/"+currentEvent+"/" + id + "/";
             $.ajax({
                 url: u, // the endpoint
                 type: "GET", // http method
