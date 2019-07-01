@@ -97,7 +97,7 @@ function run() {
         shuffle();
 
         function shuffle() {
-            u="https://secure-savannah-92191.herokuapp.com/get_sample_data/"+currentEvent+"/30/"
+            u="https://time2event.herokuapp.com/get_sample_data/"+currentEvent+"/30/"
             $.ajax({
                 url: u, // the endpoint
                 type: "GET", // http method
@@ -290,7 +290,7 @@ function run() {
         }
 
         function ReloadModalPanel(id) {
-            var u = "https://secure-savannah-92191.herokuapp.com/get_tweet_with_id/"+currentEvent+"/" + id + "/";
+            var u = "https://time2event.herokuapp.com/get_tweet_with_id/"+currentEvent+"/" + id + "/";
             $.ajax({
                 url: u, // the endpoint
                 type: "GET", // http method
