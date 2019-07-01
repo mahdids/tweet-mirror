@@ -54,7 +54,7 @@ def get_event_names(request):
     return HttpResponse(json.dumps(event_names),status=status.HTTP_200_OK)
 
 def get_sample_data(request,event_name, count):
-    p = BASE_DIR + '\\hello\\DataFiles\\'+event_name+'.json'
+    p =  '\\hello\\DataFiles\\'+event_name+'.json'
     json_data = open(p)
     data = json.load(json_data)
     s=random.sample(data,count)
@@ -63,7 +63,7 @@ def get_sample_data(request,event_name, count):
 
 
 def get_tweet_with_id(request,event_name, tweet_id):
-    p = BASE_DIR + '\\hello\\DataFiles\\'+event_name+'.json'
+    p =  '\\hello\\DataFiles\\'+event_name+'.json'
     json_data = open(p)
     data = json.load(json_data)
     for json_obj in data:
