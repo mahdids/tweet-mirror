@@ -75,21 +75,23 @@ def get_sample_data(request,event_name, count):
             blue.append(tweet)
     result=[]
 
-    if len(red)+len(green)<count/2:
+    countH = count // 2
+    countQ = count // 4
+    if len(red) + len(green) < countH:
         result.extend(green)
         result.extend(red)
     else:
-        if len(red)>count/4 and len(green)>count/4:
-            result.extend(green[:count/4])
-            result.extend(red[:count/4])
+        if len(red) > countQ and len(green) > countQ:
+            result.extend(green[:countQ])
+            result.extend(red[:countQ])
         else:
-            if len(red) < count / 4 :
-                result.extend(green[:(count / 2-len(red))])
+            if len(red) < countQ:
+                result.extend(green[:(countH - len(red))])
                 result.extend(red)
             else:
-                result.extend(red[:(count / 2 - len(green))])
+                result.extend(red[:(countH - len(green))])
                 result.extend(green)
-    result.extend(blue[:count-len(result)])
+    result.extend(blue[:count - len(result)])
     response = HttpResponse(json.dumps(result), content_type="application/json")
     _acao_response(response)
     return response
