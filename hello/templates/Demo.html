@@ -111,7 +111,7 @@
     shuffle();
 
     function shuffle() {
-        u = "https://time2eventprediction.herokuapp.com//get_sample_data/" + currentEvent + "/30/"
+        u = "https://time2eventprediction.herokuapp.com/get_sample_data/" + currentEvent + "/30/"
         $.ajax({
             url: u, // the endpoint
             type: "GET", // http method
@@ -397,7 +397,7 @@
     }
 
     function ReloadModalPanel(id) {
-        var u = "https://time2eventprediction.herokuapp.com//get_tweet_with_id/" + currentEvent + "/" + id + "/";
+        var u = "https://time2eventprediction.herokuapp.com/get_tweet_with_id/" + currentEvent + "/" + id + "/";
         $.ajax({
             url: u, // the endpoint
             type: "GET", // http method
